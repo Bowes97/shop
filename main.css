@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.block{
+    height: 600px;
+    width: 25%;
+    background-color: lightgrey;
+    margin: 0 20px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+.count{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.count input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(214, 214, 214);
+}
+.count p {
+    margin: 25px 0px 0 ;
+    font-size: 20px;
+    font-family: cursive;
+}
+.count p:nth-of-type(1){
+    margin: 130px 0 0;
+}
+#counts{
+    margin: 75px 0 0;
+}
+.radio{
+    margin: 25px 0;
+    font-family: cursive;
+    font-size: 16px;
+}
+.add{
+    width: 50%;
+    font-size: 18px;
+    font-family: cursive;
+}
+#text{
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+.result{
+    padding: 25px;
+}

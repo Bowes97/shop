@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <form name="count" class="count">
+                <p>Баланс</p>
+                <input type="text" name="" class="bank" disabled>
+                <p>Пиво</p>
+                <input type="text" name="" class="beer" disabled>
+                <p>Вино</p>
+                <input type="text" name="" class="wine" disabled>
+                <p>Пепсі</p>
+                <input type="text" name="" class="pepsi" disabled>
+            </form>
+        </div>
+        <div class="block">
+            <form name="add" class="count">
+                <p id='counts'>Кількість</p>
+                <input type="number" name="" id="count">
+                <div class="radio">
+                    <input type="radio" name="radio" id="radio_beer">Пиво
+                    <input type="radio" name="radio" id="radio_wine">Вино
+                    <input type="radio" name="radio" id="radio_pepsi">Пепсі
+                </div>
+                <input type="button" name="" class="add" value="Додати" id="add">
+                <div id="text"></div>
+                <input type="button" class="add" value="Купити" id="buy">
+            </form>
+        </div>
+        <div class="block">
+            <div class="result">
+
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
